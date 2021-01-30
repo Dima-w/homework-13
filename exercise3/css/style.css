@@ -1,0 +1,16 @@
+.box {
+	width: 150px;
+	height: 150px;
+	border: 1px solid red; 
+}
+@keyframes color-change{
+	from{
+		background: white;
+	}
+	to{
+		background: red;
+	}
+}
+.box{
+	animation: color-change 4s;
+}

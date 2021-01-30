@@ -1,0 +1,21 @@
+.container{
+	width: 200px;
+	border: 1px solid red; 
+}
+.box {
+	width: 200px;
+	height: 30px;
+	border: 1px solid red; 
+}
+@keyframes loading-bar{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 100%;
+	}
+}
+.box{
+	background: red;
+	animation:loading-bar 9s infinite;
+}

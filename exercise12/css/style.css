@@ -1,0 +1,50 @@
+.box {
+	width: 350px;
+	height: 350px;
+	border: 1px solid red; 
+}
+.ball{
+	position: absolute;
+	background: red;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	animation:anim-falling-ball 4s infinite;
+}
+@keyframes anim-falling-ball{
+	15%{
+		margin-left: 35px; 
+		margin-top: 325px;
+		animation-timing-function: ease-in;
+	}
+	30%{
+		margin-left: 65px;
+		margin-top: 260px;
+		animation-timing-function: ease-in;
+	}
+	45%{
+		margin-left: 85px;
+		margin-top: 325px;
+		animation-timing-function: ease-in;
+	}
+	55%{
+		margin-left: 95px;
+		margin-top: 280px;
+		animation-timing-function: ease-in;
+	}
+	70%{
+		margin-left: 115px;
+		margin-top: 325px;
+		animation-timing-function: ease-in;
+	}
+	85%{
+		margin-left: 130px;
+		margin-top: 300px;
+		animation-timing-function: ease-in;
+	}
+	100%{
+		margin-left: 135px;
+		margin-top: 325px;
+		animation-timing-function: ease-out;
+	}
+}
